@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Remodula - Inteligência em Economia Circular de Móveis</title>
+
+    <link rel="stylesheet" href="style.css">
+
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+
+   
+
+    <nav class="navbar">
+
+        <div class="nav-container container">
+
+            <a href="#" class="logo">
+
+                <i class="fa-solid fa-compass-drafting"></i> Remodula
+
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="#simulador" class="active">Simulador</a></li>
+
+                <li><a href="#inspiracao">Ideias de Reuso</a></li>
+
+                <li><a href="#doacao">Quero Doar</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+
+   
+
+    <header class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+
+            <h1>Adapte seus móveis planejados antigos para espaços pequenos</h1>
+
+            <p>Mudou de casa e o móvel sob medida não cabe mais? O Remodula calcula os cortes inteligentes ideais para reaproveitar seu material, poupar seu bolso e evitar o descarte no lixo.</p>
+
+            <a href="#simulador" class="btn-primary"><i class="fa-solid fa-wand-magic-sparkles"></i> Começar Simulação</a>
+
+        </div>
+
+    </header>
+
+
+
+   
+    <main class="container main-content">
+
+        
+
+        
+
+        <section id="simulador" class="section-card">
+
+            <div class="section-header">
+
+                <h2><i class="fa-solid fa-calculator"></i> Calculadora de Transformação Modular</h2>
+
+                <p>Compare as medidas do móvel atual com a nova parede para obter o plano básico de ajuste ecológico.</p>
+
+            </div>
+
+
+
+            <div class="simulator-grid">
+
+               
+
+                <div class="form-panel">
+
+                    <h3><i class="fa-solid fa-couch"></i> 1. O Móvel Sob Medida Original</h3>
+
+                    <div class="input-group">
+
+                        <label for="moveil-tipo">Categoria do Planejado</label>
+
+                        <select id="moveil-tipo">
+
+                            <option value="guardaroupa">Guarda-Roupa / Armário Modular Quarto</option>
+
+                            <option value="cozinha">Armário de Cozinha Completo ou Balcão</option>
+
+                            <option value="painel">Painel Traseiro de TV / Home Theater</option>
+
+                        </select>
+
+                    </div>
+
+                    
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <label for="moveil-largura">Largura Atual (cm)</label>
+
+                            <input type="number" id="moveil-largura" value="260">
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <label for="moveil-altura">Altura Atual (cm)</label>
+
+                            <input type="number" id="moveil-altura" value="220">
+
+                        </div>
+
+                    </div>
+
+
+
+                    <h3><i class="fa-solid fa-house-laptop"></i> 2. O Novo Espaço Reduzido</h3>
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <label for="espaco-largura">Largura da Nova Parede (cm)</label>
+
+                            <input type="number" id="espaco-largura" value="180">
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <label for="espaco-altura">Pé-direito/Altura Útil (cm)</label>
+
+                            <input type="number" id="espaco-altura" value="240">
+
+                        </div>
+
+                    </div>
+
+
+
+                    <button id="btn-calcular" class="btn-submit">Gerar Plano de Redução</button>
+
+                </div>
+
+
+
+                
+                <div class="results-panel">
+
+                    <h3><i class="fa-solid fa-chart-pie"></i> Análise de Viabilidade Técnica</h3>
+
+                    <div id="results-content">
+
+                        <div class="placeholder-text">
+
+                            Insira os dados de tamanho nas caixas ao lado e clique no botão para conferir as soluções sugeridas de reaproveitamento e marcenaria.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+   
+    <section id="inspiracao" class="info-section container">
+
+        <h2>Inspirações: Projetos de Resíduo Zero</h2>
+
+        <div class="cards-grid">
+
+            
+
+            <div class="card">
+
+                <div class="card-image-wrapper">
+
+                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80" alt="Cozinha Planejada Compacta Adaptada" class="card-img">
+
+                    <div class="card-tag">Cozinha Compacta</div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Do Armário de 3 Metros para Cozinha de Apê Studio</h4>
+
+                    <p>Ao remover o nicho do forno e realinhar os módulos de duas portas, 100% dos armários suspensos foram encaixados em uma nova parede de apenas 1.80m.</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="card-image-wrapper">
+
+                    <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80" alt="Escrivaninha compacta de estudos em madeira" class="card-img">
+
+                    <div class="card-tag">Quarto & Office</div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Do Painel de TV para Escrivaninha de Estudos</h4>
+
+                    <p>Um painel de madeira sob medida riscado foi cortado horizontalmente. A parte superior virou uma prateleira de livros e a inferior recebeu pés metálicos virando mesa.</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="card">
+
+                <div class="card-image-wrapper">
+
+                    <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80" alt="Guarda-roupa modificado" class="card-img">
+
+                    <div class="card-tag">Economia Circular</div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <h4>Guarda-Roupa Inteligente Dividido</h4>
+
+                    <p>Guarda-roupa planejado de alto padrão foi separado na junção dos parafusos de união: virou um nicho de solteiro e as gavetas restantes viraram uma cômoda baixa para sapatos.</p>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+   
+
+    <section id="doacao" class="info-section container" style="margin-top: 20px;">
+
+        <h2><i class="fa-solid fa-hand-holding-heart" style="color: var(--color-accent);"></i> Quer apenas doar seu móvel?</h2>
+
+        <p style="text-align: center; max-width: 600px; margin: -20px auto 30px auto; color: #64748b;">
+
+            Se o plano de corte não for viável, inscreva-se abaixo. Nossa rede de ONGs parceiras desmonta e retira o móvel planejando o reuso social.
+
+        </p>
+
+        
+
+        <div class="simulator-grid">
+
+            
+
+            
+            <div class="form-panel" style="display: flex; flex-direction: column; gap: 20px;">
+
+                <div class="card" style="border-top: 4px solid var(--color-accent); width: 100%; overflow: hidden;">
+
+                    <img src="https://images.unsplash.com/photo-1452830978618-d6feae7d0ffa?auto=format&fit=crop&w=600&q=80" alt="Profissional trabalhando no ajuste e desmontagem de armários de madeira" style="width: 100%; height: 160px; object-fit: cover;">
+
+                    <div class="card-body">
+
+                        <h4><i class="fa-solid fa-truck-ramp-box"></i> Coleta Gratuita em Casa</h4>
+
+                        <p>Nossas instituições parceiras agendam a retirada, realizam a desmontagem cuidadosa no local e transportam sem custos para você.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+           
+
+            <div class="section-card" id="painel-cadastro-doacao" style="padding: 30px; border: 1px solid #e2e8f0; margin-top: 0; min-height: 380px; display: flex; flex-direction: column; justify-content: center;">
+
+                
+
+                
+
+                <div id="conteudo-formulario-doacao">
+
+                    <h3 style="color: var(--color-primary); font-size: 18px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px; border-left: 3px solid var(--color-accent); padding-left: 10px;">
+
+                        <i class="fa-solid fa-pen-to-square"></i> Ficha de Inscrição para Coleta
+
+                    </h3>
+
+                    
+
+                    <form id="form-doacao">
+
+                        <div class="input-row">
+
+                            <div class="input-group">
+
+                                <label for="doador-nome">Nome Completo</label>
+
+                                <input type="text" id="doador-nome" placeholder="Ex: Maria Silva" required>
+
+                            </div>
+
+                            <div class="input-group">
+
+                                <label for="doador-whatsapp">WhatsApp / Telefone</label>
+
+                                <input type="tel" id="doador-whatsapp" placeholder="(11) 99999-9999" required>
+
+                            </div>
+
+                        </div>
+
+
+
+                       
+                        <div class="input-row">
+
+                            <div class="input-group">
+
+                                <label for="doador-cep">CEP</label>
+
+                                <input type="text" id="doador-cep" placeholder="00000-000" required>
+
+                            </div>
+
+                            <div class="input-group">
+
+                                <label for="doador-bairro">Bairro</label>
+
+                                <input type="text" id="doador-bairro" placeholder="Ex: Centro" required>
+
+                            </div>
+
+                        </div>
+
+
+
+                        
+                        <div class="input-grid-address" style="display: grid; grid-template-columns: 3fr 1fr; gap: 20px; margin-bottom: 20px;">
+
+                            <div class="input-group" style="margin-bottom: 0;">
+
+                                <label for="doador-rua">Logradouro / Rua</label>
+
+                                <input type="text" id="doador-rua" placeholder="Ex: Av. Paulista" required>
+
+                            </div>
+
+                            <div class="input-group" style="margin-bottom: 0;">
+
+                                <label for="doador-numero">Número</label>
+
+                                <input type="text" id="doador-numero" placeholder="123" required>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="input-group">
+
+                            <label for="doador-descricao">Descreva brevemente o móvel</label>
+
+                            <select id="doador-descricao">
+
+                                <option value="guardaroupa">Guarda-Roupa / Armário Quarto</option>
+
+                                <option value="cozinha">Armário de Cozinha / Balcão</option>
+
+                                <option value="painel">Painel de TV / Home Theater</option>
+
+                                <option value="outro">Outro tipo de móvel planejado</option>
+
+                            </select>
+
+                        </div>
+
+
+
+                        <button type="submit" class="btn-submit" style="background-color: var(--color-accent); width: 100%;">
+
+                            <i class="fa-solid fa-paper-plane"></i> Concluir Inscrição de Doação
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+                
+
+                
+                <div id="msg-sucesso-doacao" style="display: none; text-align: center; padding: 30px 20px; color: #15803d; background-color: #dcfce7; border: 1px solid #bbf7d0; border-radius: 8px;">
+
+                    <i class="fa-solid fa-circle-check" style="font-size: 48px; color: #16a34a; margin-bottom: 15px;"></i>
+
+                    <h3 style="color: #16a34a; margin-bottom: 10px; font-size: 20px;">Cadastro Concluído!</h3>
+
+                    <p style="color: #166534; font-size: 14px; line-height: 1.5; margin: 0;">
+
+                        Sua ficha foi registrada com sucesso. Nossa equipe entrará em contato via WhatsApp em até 24h para alinhar o envio das fotos e agendar a retirada do móvel.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+   
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p><i class="fa-solid fa-leaf"></i> Remodula 2026 — Plataforma de Arquitetura Verde e Economia de Materiais.</p>
+
+            <p style="font-size: 12px; margin-top: 5px; color: #64748b;">Feito sob medida para transformar móveis planejados em soluções inteligentes para microapartamentos.</p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="apps.js"></script>
+
+    
+
+    
+    <script>
+
+        document.getElementById('form-doacao').addEventListener('submit', function(event) {
+
+            event.preventDefault(); // Impede a página de recarregar
+
+            
+
+           
+
+            document.getElementById('conteudo-formulario-doacao').style.display = 'none';
+
+            
+
+           
+
+            document.getElementById('msg-sucesso-doacao').style.display = 'block';
+
+        });
+
+    </script>
+
+</body>
+
+</html>
